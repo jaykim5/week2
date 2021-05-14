@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web site</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>
+        <a href="index.html">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+      </h1>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#favorite">Favorite</a>
+        </li>
+      </ul>
+    </div>
+    <section>
+      <div id="main">
+        <div class="wrapper">
+          <button onclick="myFunction()" id="myDark">
+            <i class="fas fa-adjust fa-2x"></i>
+          </button>
+
+          <div class="typing-name">Hello, I'm Soojong Kim!</div>
+          <br />
+          <div class="typing-developer ">UX oriented FE developer.</div>
+          <a href="#about"> <i class="fas fa-angle-double-down fa-3x"></i></a>
+        </div>
+      </div>
+      <div id="about">
+        <div class="profile">
+          <img
+            src="img/profile.jpg"
+            alt="profile-image"
+            class="profile-image"
+          />
+          <div class="profile-text" lang="ko">
+            <h1>
+              안녕하세요. 22기 김수종입니다.<br />
+              프론트엔드 개발자로 새로운 시작을 준비하고 있습니다.
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div id="favorite">
+        <div class="favorite_things">
+          <h2>What I love</h2>
+          <div class="favorite_container">
+            <div class="container">
+              <div class="overlay" lang="ko">여행</div>
+              <span class="travel">
+                <img src="img/travel.jpg" alt="travel-image" />
+              </span>
+            </div>
+            <div class="container">
+              <div class="overlay" lang="ko">타코</div>
+              <span class="food">
+                <img src="img/food.jpg" alt="food-image" />
+              </span>
+            </div>
+            <div class="container">
+              <div class="overlay" lang="ko">커피</div>
+              <span class="coffee">
+                <img src="img/coffee.jpg" alt="coffee-image" />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </section>
+    <div class="social">
+      <a href="mailto:soojkim55@gmail.com" target="_blank">
+        <img
+          src="img/google.png"
+          alt="social-gogle"
+          width="36px"
+          height="36px"
+        />
+      </a>
+
+      <a href="https://github.com/jaykim5/web1" target="_blank">
+        <img
+          src="img/github.png"
+          alt="social-github"
+          width="36px"
+          height="39px"
+        />
+      </a>
+
+      <a href="https://velog.io/@soojk" target="_blank">
+        <img
+          src="img/pen-square-solid.svg"
+          alt="social-velog"
+          width="38px"
+          height="38px"
+        />
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
